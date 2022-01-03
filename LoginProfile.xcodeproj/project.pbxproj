@@ -19,6 +19,14 @@
 		C7D7D7AF276783B200F01B39 /* WonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7AA276783B200F01B39 /* WonButton.swift */; };
 		C7D7D7B0276783B200F01B39 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7AB276783B200F01B39 /* FavouriteButton.swift */; };
 		C7D7D7B1276783B200F01B39 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7AC276783B200F01B39 /* CircleButton.swift */; };
+		DB98236C27830DBE00744167 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB98236B27830DBE00744167 /* AppDelegate.m */; };
+		DB98236E27830DBF00744167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB98236D27830DBF00744167 /* Assets.xcassets */; };
+		DB98237327830DBF00744167 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB98237227830DBF00744167 /* main.m */; };
+		DB98237B27830E3900744167 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB98237927830E3900744167 /* LoginViewController.m */; };
+		DB98237C27830E3900744167 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB98237A27830E3900744167 /* LoginViewController.xib */; };
+		DB982382278311E100744167 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB982380278311E100744167 /* MainWindowController.m */; };
+		DB982383278311E100744167 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB982381278311E100744167 /* MainWindowController.xib */; };
+		DB9823882783158A00744167 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9823862783158A00744167 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +46,30 @@
 		C7D7D7AA276783B200F01B39 /* WonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WonButton.swift; sourceTree = "<group>"; };
 		C7D7D7AB276783B200F01B39 /* FavouriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
 		C7D7D7AC276783B200F01B39 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		DB98236827830DBE00744167 /* LoginProfileMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProfileMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB98236A27830DBE00744167 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB98236B27830DBE00744167 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB98236D27830DBF00744167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB98237227830DBF00744167 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB98237427830DBF00744167 /* LoginProfileMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginProfileMac.entitlements; sourceTree = "<group>"; };
+		DB98237827830E3900744167 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DB98237927830E3900744167 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DB98237A27830E3900744167 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DB98237F278311E100744167 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		DB982380278311E100744167 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		DB982381278311E100744167 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		DB9823862783158A00744167 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C7D7D78E2767836100F01B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB98236527830DBE00744167 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,6 +84,7 @@
 			children = (
 				C22AF5BD2782987600233B51 /* .swiftlint.yml */,
 				C7D7D7932767836100F01B39 /* LoginProfile */,
+				DB98236927830DBE00744167 /* LoginProfileMac */,
 				C7D7D7922767836100F01B39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C7D7D7912767836100F01B39 /* LoginProfile.app */,
+				DB98236827830DBE00744167 /* LoginProfileMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +117,41 @@
 			path = LoginProfile;
 			sourceTree = "<group>";
 		};
+		DB98236927830DBE00744167 /* LoginProfileMac */ = {
+			isa = PBXGroup;
+			children = (
+				DB98237E278311D100744167 /* Main */,
+				DB98237D27830E3C00744167 /* ViewController */,
+				DB98236A27830DBE00744167 /* AppDelegate.h */,
+				DB98236B27830DBE00744167 /* AppDelegate.m */,
+				DB98236D27830DBF00744167 /* Assets.xcassets */,
+				DB98237227830DBF00744167 /* main.m */,
+				DB98237427830DBF00744167 /* LoginProfileMac.entitlements */,
+				DB9823862783158A00744167 /* MainMenu.xib */,
+			);
+			path = LoginProfileMac;
+			sourceTree = "<group>";
+		};
+		DB98237D27830E3C00744167 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB98237827830E3900744167 /* LoginViewController.h */,
+				DB98237927830E3900744167 /* LoginViewController.m */,
+				DB98237A27830E3900744167 /* LoginViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DB98237E278311D100744167 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB98237F278311E100744167 /* MainWindowController.h */,
+				DB982380278311E100744167 /* MainWindowController.m */,
+				DB982381278311E100744167 /* MainWindowController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,6 +173,23 @@
 			productReference = C7D7D7912767836100F01B39 /* LoginProfile.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DB98236727830DBE00744167 /* LoginProfileMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB98237727830DBF00744167 /* Build configuration list for PBXNativeTarget "LoginProfileMac" */;
+			buildPhases = (
+				DB98236427830DBE00744167 /* Sources */,
+				DB98236527830DBE00744167 /* Frameworks */,
+				DB98236627830DBE00744167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginProfileMac;
+			productName = LoginProfileMac;
+			productReference = DB98236827830DBE00744167 /* LoginProfileMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -120,6 +202,9 @@
 				TargetAttributes = {
 					C7D7D7902767836100F01B39 = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					DB98236727830DBE00744167 = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
@@ -138,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				C7D7D7902767836100F01B39 /* LoginProfile */,
+				DB98236727830DBE00744167 /* LoginProfileMac */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +237,17 @@
 				C22AF5BE2782987600233B51 /* .swiftlint.yml in Resources */,
 				C7D7D7A12767836200F01B39 /* LaunchScreen.storyboard in Resources */,
 				C7D7D79E2767836200F01B39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB98236627830DBE00744167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB98236E27830DBF00744167 /* Assets.xcassets in Resources */,
+				DB982383278311E100744167 /* MainWindowController.xib in Resources */,
+				DB98237C27830E3900744167 /* LoginViewController.xib in Resources */,
+				DB9823882783158A00744167 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +286,17 @@
 				C7D7D7972767836100F01B39 /* SceneDelegate.swift in Sources */,
 				C7D7D7AF276783B200F01B39 /* WonButton.swift in Sources */,
 				C7D7D7AE276783B200F01B39 /* GiftButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB98236427830DBE00744167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB98237327830DBF00744167 /* main.m in Sources */,
+				DB98236C27830DBE00744167 /* AppDelegate.m in Sources */,
+				DB982382278311E100744167 /* MainWindowController.m in Sources */,
+				DB98237B27830E3900744167 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +500,58 @@
 			};
 			name = Release;
 		};
+		DB98237527830DBF00744167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginProfileMac/LoginProfileMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vapor.LoginProfileMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		DB98237627830DBF00744167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginProfileMac/LoginProfileMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vapor.LoginProfileMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +569,15 @@
 			buildConfigurations = (
 				C7D7D7A62767836200F01B39 /* Debug */,
 				C7D7D7A72767836200F01B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB98237727830DBF00744167 /* Build configuration list for PBXNativeTarget "LoginProfileMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB98237527830DBF00744167 /* Debug */,
+				DB98237627830DBF00744167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

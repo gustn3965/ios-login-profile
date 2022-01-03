@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="createAccountButton" destination="DIx-rK-niI" id="Snz-PZ-cIK"/>
+                <outlet property="idTextField" destination="jbl-qj-KYh" id="28W-CL-gRM"/>
+                <outlet property="loginButton" destination="raK-5f-S9Y" id="G2M-zG-wi7"/>
+                <outlet property="passwordTextField" destination="B2V-c0-1wr" id="v6q-ra-XBV"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView misplaced="YES" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="374"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="21" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WXd-xR-Fzt">
+                    <rect key="frame" x="33" y="50" width="260" height="287"/>
+                    <subviews>
+                        <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="50" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFb-Vk-jOE">
+                            <rect key="frame" x="0.0" y="120" width="260" height="167"/>
+                            <subviews>
+                                <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="10" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jIk-BZ-jjj">
+                                    <rect key="frame" x="0.0" y="99" width="260" height="68"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jYQ-gs-jo4">
+                                            <rect key="frame" x="30" y="42" width="200" height="26"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="카카오톡을 시작합니다" id="43J-jY-5vR">
+                                                <font key="font" textStyle="title1" name=".SFNS-Regular"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="bUf-wI-kSd">
+                                            <rect key="frame" x="-2" y="0.0" width="264" height="32"/>
+                                            <textFieldCell key="cell" selectable="YES" alignment="center" title="사용하던 카카오계정이 있다면 이메일 또는 전화번호로 로그인해 주세요." id="deJ-wY-pUj">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </subviews>
+                                    <visibilityPriorities>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                    </visibilityPriorities>
+                                    <customSpacing>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                    </customSpacing>
+                                </stackView>
+                                <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="5" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aGI-cx-leq">
+                                    <rect key="frame" x="1" y="0.0" width="258" height="49"/>
+                                    <subviews>
+                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jbl-qj-KYh">
+                                            <rect key="frame" x="0.0" y="33" width="258" height="16"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" placeholderString="이메일 또는 전화번호" drawsBackground="YES" id="niV-m2-hI8">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="I2p-T8-T9m">
+                                            <rect key="frame" x="0.0" y="25" width="258" height="5"/>
+                                        </box>
+                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="B2V-c0-1wr">
+                                            <rect key="frame" x="0.0" y="6" width="258" height="16"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" placeholderString="비밀번호" drawsBackground="YES" id="dhr-LU-Yow">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="QFk-bO-3DH">
+                                            <rect key="frame" x="0.0" y="-2" width="258" height="5"/>
+                                        </box>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="QFk-bO-3DH" firstAttribute="width" secondItem="jbl-qj-KYh" secondAttribute="width" id="1mw-aF-wkQ"/>
+                                        <constraint firstItem="I2p-T8-T9m" firstAttribute="width" secondItem="jbl-qj-KYh" secondAttribute="width" id="8qX-Ci-3sn"/>
+                                        <constraint firstItem="jbl-qj-KYh" firstAttribute="width" secondItem="aGI-cx-leq" secondAttribute="width" id="xpi-kq-tnQ"/>
+                                    </constraints>
+                                    <visibilityPriorities>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                    </visibilityPriorities>
+                                    <customSpacing>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                    </customSpacing>
+                                </stackView>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                        <stackView distribution="fillEqually" orientation="vertical" alignment="centerX" spacing="14" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MaR-Lb-JMM">
+                            <rect key="frame" x="1" y="0.0" width="258" height="99"/>
+                            <subviews>
+                                <button translatesAutoresizingMaskIntoConstraints="NO" id="raK-5f-S9Y">
+                                    <rect key="frame" x="0.0" y="75" width="258" height="24"/>
+                                    <buttonCell key="cell" type="square" title="카카오계정 로그인" bezelStyle="shadowlessSquare" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="kIk-Cm-3c1">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <button translatesAutoresizingMaskIntoConstraints="NO" id="DIx-rK-niI">
+                                    <rect key="frame" x="0.0" y="38" width="258" height="23"/>
+                                    <buttonCell key="cell" type="square" title="새로운 카카오계정 만들기" bezelStyle="shadowlessSquare" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="7i6-qx-gu2">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <button translatesAutoresizingMaskIntoConstraints="NO" id="3Vs-ls-UL7">
+                                    <rect key="frame" x="0.0" y="0.0" width="258" height="24"/>
+                                    <buttonCell key="cell" type="square" title="카카오계정 또는 비밀번호 찾기" bezelStyle="shadowlessSquare" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="fal-iU-fye">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="3Vs-ls-UL7" firstAttribute="width" secondItem="raK-5f-S9Y" secondAttribute="width" id="1aP-8v-d3s"/>
+                                <constraint firstItem="DIx-rK-niI" firstAttribute="width" secondItem="raK-5f-S9Y" secondAttribute="width" id="gkE-9S-ElD"/>
+                            </constraints>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="0zc-64-p63"/>
+                        <constraint firstAttribute="height" constant="287" id="PTw-G1-qpb"/>
+                        <constraint firstItem="raK-5f-S9Y" firstAttribute="width" secondItem="jbl-qj-KYh" secondAttribute="width" id="eVZ-Um-Nko"/>
+                        <constraint firstItem="aGI-cx-leq" firstAttribute="width" secondItem="WXd-xR-Fzt" secondAttribute="width" multiplier="0.992308" id="kX3-EN-iSb"/>
+                    </constraints>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="WXd-xR-Fzt" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="45I-cz-Ggk"/>
+                <constraint firstAttribute="bottom" secondItem="WXd-xR-Fzt" secondAttribute="bottom" constant="50" id="JyU-gT-4hB"/>
+                <constraint firstAttribute="trailing" secondItem="WXd-xR-Fzt" secondAttribute="trailing" constant="33" id="hdQ-3e-gB6"/>
+                <constraint firstItem="WXd-xR-Fzt" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="33" id="qQl-Te-Ny4"/>
+                <constraint firstItem="WXd-xR-Fzt" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="87" id="yCZ-fx-CPq"/>
+            </constraints>
+            <point key="canvasLocation" x="29.5" y="232.5"/>
+        </customView>
+    </objects>
+</document>
