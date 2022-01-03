@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ONl-3k-Pc4">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -14,61 +14,61 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83U-ce-VLf">
-                                <rect key="frame" x="16" y="411" width="382" height="31"/>
+                                <rect key="frame" x="16" y="411.33333333333331" width="358" height="31"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="새로운 카카오계정 만들기"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tw-09-Dgg">
-                                <rect key="frame" x="16" y="369" width="382" height="31"/>
+                                <rect key="frame" x="16" y="369.33333333333331" width="358" height="31"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="카카오계정 로그인"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사용하던 카카오계정이 있다면 이메일 또는 전화번호로 로그인해 주세요." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8Z-rk-Vhy">
-                                <rect key="frame" x="16" y="163" width="382" height="42.5"/>
+                                <rect key="frame" x="16" y="163" width="358" height="42.333333333333343"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUf-fx-D9T">
-                                <rect key="frame" x="16" y="122" width="382" height="30"/>
+                                <rect key="frame" x="16" y="122" width="358" height="30"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="이메일 또는 전화번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kCK-hP-d7K">
-                                <rect key="frame" x="16" y="267.5" width="382" height="24.5"/>
+                                <rect key="frame" x="16" y="267.33333333333331" width="358" height="24.666666666666686"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1pR-ew-1PK">
-                                <rect key="frame" x="16" y="300.5" width="382" height="0.5"/>
+                                <rect key="frame" x="16" y="300.66666666666669" width="358" height="0.33333333333331439"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="0.5" id="nyX-M4-A1O"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BQL-il-XYi">
-                                <rect key="frame" x="16" y="311.5" width="382" height="24.5"/>
+                                <rect key="frame" x="16" y="311.66666666666669" width="358" height="24.666666666666686"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYb-Ed-sap">
-                                <rect key="frame" x="16" y="344.5" width="382" height="0.5"/>
+                                <rect key="frame" x="16" y="344.66666666666669" width="358" height="0.66666666666668561"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="0.5" id="AQ4-bf-6fa"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MI-eZ-WxA">
-                                <rect key="frame" x="16" y="456" width="382" height="31"/>
+                                <rect key="frame" x="16" y="456.33333333333331" width="358" height="31"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="카카오계정 또는 비밀번호 찾기"/>
@@ -126,74 +126,77 @@
             <objects>
                 <viewController id="ONl-3k-Pc4" customClass="LoginViewController" customModule="LoginProfile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iTf-pH-RNR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caR-8O-BIA">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="44" width="390" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UYW-Uc-kCW">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="818"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKi-z3-AR1">
-                                                <rect key="frame" x="24" y="371" width="366" height="35"/>
+                                                <rect key="frame" x="24" y="371.33333333333331" width="342" height="35"/>
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="새로운 카카오계정 만들기">
+                                                <buttonConfiguration key="configuration" style="plain" title="새로운 카카오계정 만들기" titleAlignment="center">
                                                     <directionalEdgeInsets key="contentInsets" top="9" leading="0.0" bottom="9" trailing="0.0"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ldS-2f-sdG">
-                                                <rect key="frame" x="24" y="325" width="366" height="35"/>
+                                                <rect key="frame" x="24" y="325.33333333333331" width="342" height="35"/>
                                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="카카오계정 로그인"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="카카오계정 로그인">
+                                                <buttonConfiguration key="configuration" style="plain" title="카카오계정 로그인" titleAlignment="center">
                                                     <directionalEdgeInsets key="contentInsets" top="9" leading="0.0" bottom="9" trailing="0.0"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clickLoginButton:" destination="ONl-3k-Pc4" eventType="touchUpInside" id="L84-zx-SOo"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사용하던 카카오계정이 있다면 이메일 또는 전화번호로 로그인해 주세요." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EO2-hc-Dqg">
-                                                <rect key="frame" x="24" y="119" width="366" height="42.5"/>
+                                                <rect key="frame" x="24" y="118.99999999999999" width="342" height="42.333333333333329"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카카오톡을 시작합니다" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htf-Ka-54O">
-                                                <rect key="frame" x="24" y="78" width="366" height="30"/>
+                                                <rect key="frame" x="24" y="78" width="342" height="30"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="이메일 또는 전화번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f1Q-b8-x40">
-                                                <rect key="frame" x="24" y="223.5" width="366" height="24.5"/>
+                                                <rect key="frame" x="24" y="223.33333333333331" width="342" height="24.666666666666657"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECn-W9-x5j" userLabel="divider1">
-                                                <rect key="frame" x="24" y="256.5" width="366" height="0.5"/>
+                                                <rect key="frame" x="24" y="256.66666666666669" width="342" height="0.33333333333331439"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="0.5" id="Wx7-BN-pfF"/>
                                                 </constraints>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D18-UO-Aor">
-                                                <rect key="frame" x="24" y="267.5" width="366" height="24.5"/>
+                                                <rect key="frame" x="24" y="267.66666666666669" width="342" height="24.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jc8-P1-Z8B" userLabel="divider2">
-                                                <rect key="frame" x="24" y="300.5" width="366" height="0.5"/>
+                                                <rect key="frame" x="24" y="300.66666666666669" width="342" height="0.66666666666668561"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="0.5" id="haY-Xq-uzt"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egg-WE-iUD">
-                                                <rect key="frame" x="24" y="420" width="366" height="31"/>
+                                                <rect key="frame" x="24" y="420.33333333333331" width="342" height="31"/>
                                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="카카오계정 또는 비밀번호 찾기"/>
@@ -253,6 +256,10 @@
                             <constraint firstItem="caR-8O-BIA" firstAttribute="top" secondItem="wzS-cR-UEa" secondAttribute="top" id="scB-Fc-JTv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="idTextField" destination="f1Q-b8-x40" id="bLm-zy-BXn"/>
+                        <outlet property="loginButton" destination="ldS-2f-sdG" id="aMl-5l-9Ot"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPV-9E-D6Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
