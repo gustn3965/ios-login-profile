@@ -11,6 +11,7 @@
 		C284C04F2785587600C330FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C284C04E2785587600C330FC /* ProfileViewController.swift */; };
 		C284C0532785663900C330FC /* TopButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C284C0522785663900C330FC /* TopButtonStackView.swift */; };
 		C284C056278567A800C330FC /* BottomButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C284C055278567A800C330FC /* BottomButtonStackView.swift */; };
+		C284C05827856F9800C330FC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C284C05727856F9800C330FC /* ProfileView.swift */; };
 		C7D7D7952767836100F01B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7942767836100F01B39 /* AppDelegate.swift */; };
 		C7D7D7972767836100F01B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7962767836100F01B39 /* SceneDelegate.swift */; };
 		C7D7D7992767836100F01B39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7982767836100F01B39 /* LoginViewController.swift */; };
@@ -32,6 +33,7 @@
 		C284C04E2785587600C330FC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C284C0522785663900C330FC /* TopButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopButtonStackView.swift; sourceTree = "<group>"; };
 		C284C055278567A800C330FC /* BottomButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonStackView.swift; sourceTree = "<group>"; };
+		C284C05727856F9800C330FC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C7D7D7912767836100F01B39 /* LoginProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D7D7942767836100F01B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D7D7962767836100F01B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				C284C0522785663900C330FC /* TopButtonStackView.swift */,
 				C284C055278567A800C330FC /* BottomButtonStackView.swift */,
+				C284C05727856F9800C330FC /* ProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				C7D7D7952767836100F01B39 /* AppDelegate.swift in Sources */,
 				C7D7D7B0276783B200F01B39 /* FavouriteButton.swift in Sources */,
 				C7D7D7B1276783B200F01B39 /* CircleButton.swift in Sources */,
+				C284C05827856F9800C330FC /* ProfileView.swift in Sources */,
 				C7D7D7AD276783B200F01B39 /* CloseButton.swift in Sources */,
 				C7D7D7972767836100F01B39 /* SceneDelegate.swift in Sources */,
 				C284C04F2785587600C330FC /* ProfileViewController.swift in Sources */,
