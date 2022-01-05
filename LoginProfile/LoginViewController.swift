@@ -21,5 +21,13 @@ class LoginViewController: UIViewController {
         loginButton.backgroundColor = isActive ? .systemYellow : .systemGray5
         self.loginButton.isEnabled = isActive
     }
+    
+    @IBAction
+    private
+    func clickLoginButton(_ sender: UIButton) {
+        let profileViewController: ProfileViewController = ProfileViewController()
+        profileViewController.modalPresentationStyle = .fullScreen
+        present(profileViewController, animated: true)
+    }
 }
 

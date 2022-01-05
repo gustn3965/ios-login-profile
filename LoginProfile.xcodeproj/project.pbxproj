@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C26DB35C278298690014751D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C26DB35B278298690014751D /* .swiftlint.yml */; };
+		C284C04F2785587600C330FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C284C04E2785587600C330FC /* ProfileViewController.swift */; };
 		C7D7D7952767836100F01B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7942767836100F01B39 /* AppDelegate.swift */; };
 		C7D7D7972767836100F01B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7962767836100F01B39 /* SceneDelegate.swift */; };
 		C7D7D7992767836100F01B39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7982767836100F01B39 /* LoginViewController.swift */; };
@@ -26,6 +27,7 @@
 		C2566D1F2783DD31006BE9D5 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C2566D222783DD95006BE9D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Login.strings; sourceTree = "<group>"; };
 		C26DB35B278298690014751D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		C284C04E2785587600C330FC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C7D7D7912767836100F01B39 /* LoginProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D7D7942767836100F01B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D7D7962767836100F01B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				C7D7D79D2767836200F01B39 /* Assets.xcassets */,
 				C7D7D79F2767836200F01B39 /* LaunchScreen.storyboard */,
 				C7D7D7A22767836200F01B39 /* Info.plist */,
+				C284C04E2785587600C330FC /* ProfileViewController.swift */,
 			);
 			path = LoginProfile;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				C7D7D7B1276783B200F01B39 /* CircleButton.swift in Sources */,
 				C7D7D7AD276783B200F01B39 /* CloseButton.swift in Sources */,
 				C7D7D7972767836100F01B39 /* SceneDelegate.swift in Sources */,
+				C284C04F2785587600C330FC /* ProfileViewController.swift in Sources */,
 				C7D7D7AF276783B200F01B39 /* WonButton.swift in Sources */,
 				C7D7D7AE276783B200F01B39 /* GiftButton.swift in Sources */,
 			);
