@@ -8,6 +8,7 @@
 import UIKit
 
 final class TopButtonStackView: UIStackView {
+    // MARK: - Views
     private let closeButton: CloseButton = CloseButton()
     private let emptySpacingView: UIView = {
         let view: UIView = UIView()
@@ -37,7 +38,7 @@ final class TopButtonStackView: UIStackView {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
-    
+    // MARK: - init
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -47,6 +48,7 @@ final class TopButtonStackView: UIStackView {
         fatalError("not implemented")
     }
     
+    // MARK: - Setup
     private func setupView() {
         addArrangedSubview(closeButton)
         addArrangedSubview(emptySpacingView)

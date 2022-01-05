@@ -8,6 +8,7 @@
 import UIKit
 
 final class BottomButtonStackView: UIStackView {
+    // MARK: - Views
     private let chatButton: UIButton = {
         let button: UIButton = UIButton()
         button.setImage(UIImage(named: "chat"), for: .normal)
@@ -52,7 +53,7 @@ final class BottomButtonStackView: UIStackView {
         label.textColor = .white
         return label
     }()
-
+    // MARK: - init
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -62,6 +63,7 @@ final class BottomButtonStackView: UIStackView {
         fatalError("not implemented")
     }
     
+    // MARK: - Setup
     private func setupView() {
         addArrangedSubview(makeVerticalStackView(top: chatButton, bottom: chatLabel))
         addArrangedSubview(makeVerticalStackView(top: callButton, bottom: callLabel))

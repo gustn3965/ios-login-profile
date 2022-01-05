@@ -8,10 +8,12 @@
 import UIKit
 
 final class ProfileView: UIStackView {
+    // MARK: - Views
     let imageView: UIImageView = {
         let imageView: UIImageView = UIImageView()
         imageView.backgroundColor = .white
         imageView.image = UIImage(named: "yagom")
+        imageView.clipsToBounds = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -32,6 +34,7 @@ final class ProfileView: UIStackView {
         return stackView
     }()
     
+    // MARK: - init
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -41,12 +44,17 @@ final class ProfileView: UIStackView {
         fatalError("not implemented")
     }
     
-    func setupView() {
+    // MARK: - Setup
+    private func setupView() {
         addArrangedSubview(imageView)
         addArrangedSubview(nameLabel)
         
         axis = .vertical
         spacing = 5
+    }
+    
+    func makeCornerRadiusImageView() {
+        imageView.layer.cornerRadius = imageView.frame.width * 0.3
     }
 }
 

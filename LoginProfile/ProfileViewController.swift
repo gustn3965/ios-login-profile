@@ -8,6 +8,15 @@
 import UIKit
 
 final class ProfileViewController: UIViewController {
+    private struct Inset {
+        let leadingTopButtonStackView: CGFloat = 22
+        let trailingTopButtonStackView: CGFloat = 16
+        let topTopButtonStackView: CGFloat = 16
+        let bottomProfileView: CGFloat = 50
+        let topBottomButtonStackView: CGFloat = 28
+        let bottomBottomButtonStackView: CGFloat = 64
+    }
+    
     // MARK: - Views
     private let topButtonStackView: TopButtonStackView = {
         let stackView: TopButtonStackView = TopButtonStackView()
@@ -34,6 +43,9 @@ final class ProfileViewController: UIViewController {
         return stackView
     }()
     
+    // MARK: - Properties
+    private lazy var inset: ProfileViewController.Inset = ProfileViewController.Inset()
+    
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,9 +63,12 @@ final class ProfileViewController: UIViewController {
     func setupTopStackView() {
         view.addSubview(topButtonStackView)
         NSLayoutConstraint.activate([
-            topButtonStackView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 22),
-            topButtonStackView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -16),
-            topButtonStackView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 18)
+            topButtonStackView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor,
+                                                        constant: inset.leadingTopButtonStackView),
+            topButtonStackView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor,
+                                                         constant: -inset.trailingTopButtonStackView),
+            topButtonStackView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor,
+                                                    constant: inset.topTopButtonStackView)
         ])
     }
     
@@ -63,7 +78,8 @@ final class ProfileViewController: UIViewController {
             profileView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             profileView.imageView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.25),
             profileView.imageView.heightAnchor.constraint(equalTo: profileView.imageView.widthAnchor),
-            profileView.bottomAnchor.constraint(equalTo: dividerLine.topAnchor, constant: -50)
+            profileView.bottomAnchor.constraint(equalTo: dividerLine.topAnchor,
+                                                constant: -inset.bottomProfileView)
         ])
     }
     
@@ -74,15 +90,15 @@ final class ProfileViewController: UIViewController {
             dividerLine.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
             dividerLine.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
             dividerLine.heightAnchor.constraint(equalToConstant: 1),
-            bottomButtonStackView.topAnchor.constraint(equalTo: dividerLine.bottomAnchor, constant: 28),
+            bottomButtonStackView.topAnchor.constraint(equalTo: dividerLine.bottomAnchor,
+                                                       constant: inset.topBottomButtonStackView),
             bottomButtonStackView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
             bottomButtonStackView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
-            bottomButtonStackView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -64)
+            bottomButtonStackView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -inset.bottomBottomButtonStackView)
         ])
     }
     
     func makeCornerRadiusProfileImageView() {
-        profileView.imageView.layer.cornerRadius = profileView.imageView.frame.width * 0.3
-        profileView.imageView.clipsToBounds = true
+        profileView.makeCornerRadiusImageView()
     }
 }
