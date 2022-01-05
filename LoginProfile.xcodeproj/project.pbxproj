@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C26DB35C278298690014751D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C26DB35B278298690014751D /* .swiftlint.yml */; };
 		C284C04F2785587600C330FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C284C04E2785587600C330FC /* ProfileViewController.swift */; };
+		C284C0532785663900C330FC /* TopButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C284C0522785663900C330FC /* TopButtonStackView.swift */; };
 		C7D7D7952767836100F01B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7942767836100F01B39 /* AppDelegate.swift */; };
 		C7D7D7972767836100F01B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7962767836100F01B39 /* SceneDelegate.swift */; };
 		C7D7D7992767836100F01B39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7D7982767836100F01B39 /* LoginViewController.swift */; };
@@ -28,6 +29,7 @@
 		C2566D222783DD95006BE9D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Login.strings; sourceTree = "<group>"; };
 		C26DB35B278298690014751D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C284C04E2785587600C330FC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C284C0522785663900C330FC /* TopButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopButtonStackView.swift; sourceTree = "<group>"; };
 		C7D7D7912767836100F01B39 /* LoginProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D7D7942767836100F01B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D7D7962767836100F01B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C284C0542785671900C330FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C284C0522785663900C330FC /* TopButtonStackView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C7D7D7882767836100F01B39 = {
 			isa = PBXGroup;
 			children = (
@@ -74,9 +84,11 @@
 		C7D7D7932767836100F01B39 /* LoginProfile */ = {
 			isa = PBXGroup;
 			children = (
+				C284C0542785671900C330FC /* View */,
 				C7D7D7942767836100F01B39 /* AppDelegate.swift */,
 				C7D7D7962767836100F01B39 /* SceneDelegate.swift */,
 				C7D7D7982767836100F01B39 /* LoginViewController.swift */,
+				C284C04E2785587600C330FC /* ProfileViewController.swift */,
 				C7D7D7A8276783B200F01B39 /* CloseButton.swift */,
 				C7D7D7AC276783B200F01B39 /* CircleButton.swift */,
 				C7D7D7AB276783B200F01B39 /* FavouriteButton.swift */,
@@ -86,7 +98,6 @@
 				C7D7D79D2767836200F01B39 /* Assets.xcassets */,
 				C7D7D79F2767836200F01B39 /* LaunchScreen.storyboard */,
 				C7D7D7A22767836200F01B39 /* Info.plist */,
-				C284C04E2785587600C330FC /* ProfileViewController.swift */,
 			);
 			path = LoginProfile;
 			sourceTree = "<group>";
@@ -192,6 +203,7 @@
 				C7D7D7AD276783B200F01B39 /* CloseButton.swift in Sources */,
 				C7D7D7972767836100F01B39 /* SceneDelegate.swift in Sources */,
 				C284C04F2785587600C330FC /* ProfileViewController.swift in Sources */,
+				C284C0532785663900C330FC /* TopButtonStackView.swift in Sources */,
 				C7D7D7AF276783B200F01B39 /* WonButton.swift in Sources */,
 				C7D7D7AE276783B200F01B39 /* GiftButton.swift in Sources */,
 			);
